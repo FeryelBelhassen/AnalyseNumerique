@@ -3,7 +3,7 @@
 <h2><b>Objectif du TP:</b></h2>
 Dans ce premier TP, on va étudier la conversion de Matlab vers Python et aussi implémenter les trois méthodes utilisées de la fonction linéaire: dichotomie, point fixe et newton.
 
-#<h3><b>Exercice 1:</h3></b>
+<h3><b>Exercice 1:</h3></b>
 Dans cet exercice, on peut écrire ce polynome 𝑝(𝑥)=(𝑥−1)6 d'une autre façon c'est à dire le développer puis, on va l'évaluer en deux fonctions et faire le graphique correspondant aux deux fonctions .
 
 <h3><b>Exercice 2:</b></h3>
