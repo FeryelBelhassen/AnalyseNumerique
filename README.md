@@ -1,5 +1,5 @@
 # TP1_AnalyseNumerique
-#Objectif du TP:
+#<b>Objectif du TP:</B>
 Dans ce premier TP, on va étudier la conversion de Matlab vers Python et aussi implémenter les trois méthodes utilisées de la faonction linéaire:
 dichotomie, point fixe et newton.
 #Exercice 1:
@@ -12,10 +12,10 @@ Ce deuxiéme exercice conçerne la méthode dichotomie , tout d'abord, on va ess
  des intervalles convenables .Puis, on s'occupe de développer cette méthode en version itérative en 
 retournant alpha avec l'equation f(x)=0 avec eps=0.001. Puis,on va modifier la fonction précedante pour qu'il donne le nombre d'itérations 
 nécessaires et la valeur approchée d'alpha.
-On peut calculer le nombre d'itérations dans la méthode dichotomie d'une autre façon <b> 𝑁≥𝐸(ln(𝑏−𝑎)+𝑝ln(10)/ln(2))+1.Enfin, le traçage du courbe pour la recherche de la solution.
+On peut calculer le nombre d'itérations dans la méthode dichotomie d'une autre façon <b> 𝑁≥𝐸(ln(𝑏−𝑎)+𝑝ln(10)/ln(2))+1</b>.Enfin, le traçage du courbe pour la recherche de la solution.
 
 
-#Exercice3:
+#<b>Exercice3:</b>
 Cet exercice s'occupe de la deuxième mèthode point fixe qu'on va étudier la convergence d'une fonction s'il converge ou non en écrivant une fonction 
 qui retourne s'il converge avec l'erreur et le nombre d'itèrations sinon il diverge.
 
