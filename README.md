@@ -16,7 +16,7 @@ On peut calculer le nombre d'itérations dans la méthode dichotomie d'une autre
 Cet exercice s'occupe de la deuxième mèthode point fixe qu'on va étudier la convergence d'une fonction s'il converge ou non en écrivant une fonction qui retourne s'il converge avec l'erreur et le nombre d'itèrations sinon il diverge.
 
 <h3><b>Exercice 4:</b></h3>
-Dans ce dernier exercice , on va implémenter la derniére méthode de point fixe qu'est un cas particulier de la méthode de point fixe .
+Dans ce dernier exercice , on va implémenter la derniére méthode de newton qu'est un cas particulier de la méthode de point fixe .
   
 <h2><b>Conclusion:</b></h2>
 On conclure que la méthode de dichtomie est lente et donne beaucoup de nombres itérations par rapport à la méthode de newton qu'elle est rapide et donne le nombre d'itérations le plus petit.
