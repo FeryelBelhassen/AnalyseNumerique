@@ -1,12 +1,12 @@
 # TP1_AnalyseNumerique
-#<b>Objectif du TP:</B>
+#<h2><b>Objectif du TP:</b></h2>
 Dans ce premier TP, on va étudier la conversion de Matlab vers Python et aussi implémenter les trois méthodes utilisées de la faonction linéaire:
 dichotomie, point fixe et newton.
-#Exercice 1:
+#<h2><b>Exercice 1:</h2></b>
 Dans cet exercice, on peut écrire ce polynome 𝑝(𝑥)=(𝑥−1)6 d'une autre façon c'est à dire le développer puis, on va l'évaluer en deux fonctions et faire le 
 graphique correspondant aux deux fonctions .
 
-#Exercice 2:
+#<h2><b>Exercice 2:</b></h2>
 
 Ce deuxiéme exercice conçerne la méthode dichotomie , tout d'abord, on va essiner la courbe de  𝑓  dans l'intervalle  [−2;2]et trouver
  des intervalles convenables .Puis, on s'occupe de développer cette méthode en version itérative en 
