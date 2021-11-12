@@ -21,3 +21,4 @@ Dans ce dernier exercice , on va implémenter la derniére méthode de newton qu
 <h2><b>Conclusion:</b></h2>
 On conclure que la méthode de dichtomie est lente et donne beaucoup de nombres itérations par rapport à la méthode de newton qu'elle est rapide et donne le nombre d'itérations le plus petit.
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FeryelBelhassen/TP1_AnalyseNumerique/main)
