@@ -7,9 +7,9 @@ L’objectif de ce TP est d’implémenter les polynômes d’interpolation de L
 <h3><b>Exercice 1: Méthode de Lagrange</h3></b>
  Dans cet exercice, nous étudions la méthode de Lagrange qui permet de résoudre de manière très efficace des problèmes d'une grande variété en utilisant des coordonnées généralisées. 
 Le polynôme d’interpolation de Lagrange est l’unique polynôme de degré au plus n. 
-On dispose de (n+1) couples Xi=[xi,fi]Le polynôme d’interpolation de Lagrange qui passe exactement par ces (n+1) points .<br>
+On dispose de <b>(n+1) couples Xi=[xi,fi]</b> Le polynôme d’interpolation de Lagrange qui passe exactement par ces (n+1) points .<br>
 Dans notre exercice ,la fonction PR prend comme paramètres X et Y deux tableaux : <br>
-X prend les Xi et Y prend les fi<br> X=[1 ,2 ,3 ,4,-2];<br> Y=[-1, 0, 2 ,1,3];
+X prend les <b>Xi</b> et Y prend les <b>fi</b><br> X=[1 ,2 ,3 ,4,-2];<br> Y=[-1, 0, 2 ,1,3];
 
  <table>
    <tr>
@@ -23,11 +23,11 @@ X prend les Xi et Y prend les fi<br> X=[1 ,2 ,3 ,4,-2];<br> Y=[-1, 0, 2 ,1,3];
   
    <tr>
       <th>fi</th>
-      <td>f(1)</td>
-      <td>f(2)</td>
-      <td>f(3)</td>
-      <td>f(4)</td>
-      <td>f(-2)</td>
+      <td>-1</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+      <td></td>
      
    </tr>
  </table>
@@ -60,5 +60,38 @@ Un inconvénient de l’interpolation de Lagrange est lorsqu’on ajoute un poin
 ![divisee](https://user-images.githubusercontent.com/91917391/145249094-8ffb6b11-65df-45cd-995a-526e3f62f766.gif)
  
 L’avantage de l’interpolation de Newton est lorsqu’on ajoute un nouveau point xN+1 aux points déjà existants on a conservé qu’on a obtenu  lors de calcul de p(x) par contre à l’interpolation de Lagrange  lorsqu’on ajoute un point xN+1, on a recours à recalculer tous les éléments Li pour chaque i = 0, • • • , N+1 c’est à dire, à répéter tout le travail et donc une perte de temps. 
+
+<b>Calcul Manuellement</b>
+<center>
+ <table>
+   <tr>
+       <th>i</th>
+       <th>xi</th>
+       <th>yi</th>
+   </tr>
+   <tr>
+       <th>0</th>
+       <th>-1</th>
+       <th>6</th>
+   </tr>
+   <tr>
+       <th>1</th>
+       <th>0</th>
+       <th>1</th>
+   </tr>
+  
+     <tr>
+       <th>2</th>
+       <th>2</th>
+       <th>3</th>
+   </tr>
+  
+    <tr>
+       <th>3</th>
+       <th>5</th>
+       <th>6</th>
+   </tr>
+</table>
+</center>
 
 
