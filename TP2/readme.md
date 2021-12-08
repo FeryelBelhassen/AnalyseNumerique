@@ -96,6 +96,6 @@ L’avantage de l’interpolation de Newton est lorsqu’on ajoute un nouveau po
 
 ![Lagrange1](https://user-images.githubusercontent.com/91917391/145270553-1583ad91-5b6a-4941-b1ff-52e74e6ddc70.gif)<br>
 
-![lagrange2](https://user-images.githubusercontent.com/91917391/145271655-2bbeef5a-cda9-40fc-bf6d-0e2a40eaa5ad.jpg)<br>
+![lagrange2](https://user-images.githubusercontent.com/91917391/145275313-537516d9-aa04-43ab-973b-132890f61757.gif)
 
 ![Newtoon](https://user-images.githubusercontent.com/91917391/145271215-47e13da4-eb38-4cd2-8274-733a826f2145.gif)
