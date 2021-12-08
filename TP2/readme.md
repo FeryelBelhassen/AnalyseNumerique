@@ -70,28 +70,32 @@ L’avantage de l’interpolation de Newton est lorsqu’on ajoute un nouveau po
        <th>yi</th>
    </tr>
    <tr>
-       <th>0</th>
-       <th>-1</th>
-       <th>6</th>
+       <td>0</td>
+       <td>-1</td>
+       <td>6</td>
    </tr>
    <tr>
-       <th>1</th>
-       <th>0</th>
-       <th>1</th>
+       <td>1</td>
+       <td>0</td>
+       <td>1</td>
    </tr>
   
-     <tr>
-       <th>2</th>
-       <th>2</th>
-       <th>3</th>
+   <tr>
+       <td>2</td>
+       <td>2</td>
+       <td>3</td>
    </tr>
   
-    <tr>
-       <th>3</th>
-       <th>5</th>
-       <th>66</th>
+   <tr>
+       <td>3</td>
+       <td>5</td>
+       <td>66</td>
    </tr>
 </table>
 </center>
 
+![Lagrange1](https://user-images.githubusercontent.com/91917391/145270553-1583ad91-5b6a-4941-b1ff-52e74e6ddc70.gif)<br>
 
+![lagrange2](https://user-images.githubusercontent.com/91917391/145271655-2bbeef5a-cda9-40fc-bf6d-0e2a40eaa5ad.jpg)<br>
+
+![Newtoon](https://user-images.githubusercontent.com/91917391/145271215-47e13da4-eb38-4cd2-8274-733a826f2145.gif)
