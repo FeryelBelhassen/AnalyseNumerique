@@ -61,7 +61,7 @@ Un inconvénient de l’interpolation de Lagrange est lorsqu’on ajoute un poin
  
 L’avantage de l’interpolation de Newton est lorsqu’on ajoute un nouveau point xN+1 aux points déjà existants on a conservé qu’on a obtenu  lors de calcul de p(x) par contre à l’interpolation de Lagrange  lorsqu’on ajoute un point xN+1, on a recours à recalculer tous les éléments Li pour chaque i = 0, • • • , N+1 c’est à dire, à répéter tout le travail et donc une perte de temps. 
 
-<b>Calcul Manuellement</b>
+<b>Calcul Manuelle</b>
 <center>
  <table>
    <tr>
