@@ -89,7 +89,7 @@ L’avantage de l’interpolation de Newton est lorsqu’on ajoute un nouveau po
     <tr>
        <th>3</th>
        <th>5</th>
-       <th>6</th>
+       <th>66</th>
    </tr>
 </table>
 </center>
