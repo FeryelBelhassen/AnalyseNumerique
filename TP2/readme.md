@@ -27,7 +27,7 @@ X prend les <b>Xi</b> et Y prend les <b>fi</b><br> X=[1 ,2 ,3 ,4,-2];<br> Y=[-1,
       <td>0</td>
       <td>2</td>
       <td>1</td>
-      <td></td>
+      <td>3</td>
      
    </tr>
  </table>
