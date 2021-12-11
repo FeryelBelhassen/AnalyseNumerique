@@ -7,9 +7,9 @@ L’objectif de ce TP est d’implémenter les polynômes d’interpolation de L
 <h3><b>Exercice 1: Méthode de Lagrange</h3></b>
  Dans cet exercice, nous étudions la méthode de Lagrange qui permet de résoudre de manière très efficace des problèmes d'une grande variété en utilisant des coordonnées généralisées. 
 Le polynôme d’interpolation de Lagrange est l’unique polynôme de degré au plus n. 
-On dispose de <b>(n+1) couples Xi=[xi,fi]</b> Le polynôme d’interpolation de Lagrange qui passe exactement par ces (n+1) points .<br>
+On dispose de **(n+1) couples Xi=[xi,fi]** Le polynôme d’interpolation de Lagrange qui passe exactement par ces (n+1) points .<br>
 Dans notre exercice ,la fonction PR prend comme paramètres X et Y deux tableaux : <br>
-X prend les <b>Xi</b> et Y prend les <b>fi</b><br> X=[1 ,2 ,3 ,4,-2];<br> Y=[-1, 0, 2 ,1,3];
+X prend les **Xi** et Y prend les **fi**<br> X=[1 ,2 ,3 ,4,-2];<br> Y=[-1, 0, 2 ,1,3];
 
  <table>
    <tr>
