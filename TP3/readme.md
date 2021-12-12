@@ -121,6 +121,6 @@ La méthode de Simpson esr plus précise que celle du trapèze car elle donne un
 En conclusion, l'intègraltion numèrique est une mèthode pour calculer une valeur approximative d'une fonction qui est compliqueè d'une autre cotè, l'intègration numèrique permet d'estimer l'intègrale de cette fonction par la mèthode d'interpolation avec certain erreur.
 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FeryelBelhassen/AnalyseNumerique/main?labpath=https%3A%2F%2Fgithub.com%2FFeryelBelhassen%2FAnalyseNumerique%2Fblob%2Fmain%2FTP3%2FExemple%2520TP3.ipynb)
+https://mybinder.org/v2/gh/FeryelBelhassen/AnalyseNumerique/789d6edef4c03cee72b34b97d3727a32d3380b98?urlpath=lab%2Ftree%2FTP3%2FExemple%20TP3.ipynb
 
 
