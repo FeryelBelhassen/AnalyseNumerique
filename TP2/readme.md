@@ -103,4 +103,4 @@ L’avantage de l’interpolation de Newton est lorsqu’on ajoute un nouveau po
 <h3> Conclusion: </h3>
 La méthode de différences divisées est meilleure que la méthode de lagrange.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FeryelBelhassen/AnalyseNumerique/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FeryelBelhassen/AnalyseNumerique/625b44902025069a04d2912ad18f007a2a130d1b?urlpath=lab%2Ftree%2FTP2%2FTP2_E.ipynb)
