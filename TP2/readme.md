@@ -1,4 +1,4 @@
-<h2> Interpolation Polynomiale </h2>
+<h2> TP2:Interpolation Polynomiale </h2>
 
 <h3> Objectif du TP: </h3>
 
