@@ -14,10 +14,49 @@ L'objectif de ce TP est de calculer l'intégrale I(a, b) et l'erreur d'intégrat
 
 <h3><b> Les méthodes d'intégration numérique: </h3></b>
 Il existe de nombreuses méthodes pour réaliser une intégration numérique. Nous allons considérer ici quelques méthodes simples <b> "Méthode de Rectangle" "Méthode de Trapèze"
-  "Méthode de Simpson" et "Méthode Milieu".</b><br>
+  "Méthode de Simpson" et "Méthode Milieu".</b>
   
   
   * **Méthode de Rectangle:**
+  Dans cette méthode, on calcule l’intégrale numérique en réalisant une somme de surfaces de rectangles. Le domaine d’intégration est découpé en intervalles et on fait comme si la fonction restait constante sur chaque intervalle.
+
+Sur chaque intervalle, on réalise ainsi l’approximation suivante :![image](https://user-images.githubusercontent.com/91917391/145693440-397a5172-b2d1-4adf-b1db-ddf0b5667601.png)
+En choisissant une subdivision régulière de pas **xi+1 - xi = (b - a)/n** , donc indépendant de i avec une valeur de n "suffisamment grande".<br>
+L'erreur commise est:
+![image](https://user-images.githubusercontent.com/91917391/145694299-a1432739-25f8-4dd6-94dc-6b59d77a7aed.png) avec h= h = (b - a)/n .
+
+![image](https://user-images.githubusercontent.com/91917391/145694523-699baac0-9d29-4682-ba81-7bbe43fb49db.png)
+ 
+<b> =></b> **On conclure que cette méthode est exacte pour les fonctions constantes. Plus généralement, elle est d’autant plus précise que le nombre de points. Elle est une méthode d’ordre 1.**
+
+  * **Méthode de trapèze:**
+  La méthode d'intégration approchée dite des trapèzes consiste à remplacer l'arc de courbe MiMi+1 par le segment [MiMi+1] : c'est une interpolation linéaire. Soit N un entier non nul. On considère ici la subdivision xk = a + kh avec h =b−a/N (le pas de la subdivision) et k = 0, · · · , N. Donc xk+1 − xk = h (le pas est donc la diffèrence entre
+chaque deux points consécutifs.) 
+Ainsi, la valeur approchée de I par la formule composite des trapèzes est:
+![image](https://user-images.githubusercontent.com/91917391/145694009-fe9252dc-f0d3-4fbe-bfe8-6ee83924ff85.png)<br>
+L'erreur est: ![image](https://user-images.githubusercontent.com/91917391/145694814-828c0298-4f52-4f04-9176-c4639e83e135.png)
+
+![image](https://user-images.githubusercontent.com/91917391/145695185-d5d28085-28f9-4ac4-88a9-d45587e9765c.png)
+
+<b> =>A nouveau, cette méthode est exacte pour les fonctions constantes et affines (et même les paraboles en fait). Plus généralement, elle est d’autant plus précise que le nombre de points est grand et l’erreur décroit comme 1/n2. Elle est une méthode d’ordre 2.</b>
+
+* **Méthode de Simpson:**
+Soit N un entier non nul pair. On considére ici la subdivision xk = a + kh avec h =b−a/N (le pas de la subdivision) et k = 0, · · · , N. Donc xk+1 − xk = h. On a x0 = a 
+et xN = b. En appliquant de meme ici la relation de Chasles, la formule composite de Simpson est donnée comme suit :<br>
+![image](https://user-images.githubusercontent.com/91917391/145695401-4946f59c-b23b-4eca-91f9-2de8f5866228.png)
+L'erreur est:![image](https://user-images.githubusercontent.com/91917391/145695419-7c201a85-1e77-4c65-98e9-7ec61e30170f.png)<br>
+![image](https://user-images.githubusercontent.com/91917391/145695515-2f9e2f80-fa23-4eba-9e6f-ae4f28b4a504.png)<br>
+
+ <b>=>Plus le nombre de points est grand, plus la méthode est précise. La méthode de Simpson est une méthode d’ordre 4.</b>
+ 
+ * **Méthode du Point Milieu:**
+ 
+ Soit h le pas de temps. Notons Yn l'approximation obtenue à l'instant tn. Il s'agit d'obtenir Yn+1, l'approximation à l'instant tn+1=tn+h. La méthode d'Euler consiste à évaluer la dérivée à l'instant tn (c.a.d. f(Yn,tn)) puis à assimiler la courbe entre les instants tn et tn+1 à un segment de droite dont la pente est donnée par cette dérivée :
+Yn+1=Yn+hf(Yn,tn)
+
+
+
+
 
   <h4><b>Analyse comparatif des quatre méthodes:</h4><br></b>
   
@@ -31,7 +70,7 @@ Il existe de nombreuses méthodes pour réaliser une intégration numérique. No
 | Milieu    | 0.014220456986109    | -0.0009462064503925373 |
 
 
-**Méthode des Trapèzes:**
 
-Principe : La méthode d'intégration approchée, dite des trapèzes, décrite par Newton & Cotes, consiste à remplacer l'arc de courbe MiMi+1 par le segment [MiMi+1] : c'est une interpolation linéaire. Si nous choisissons une subdivision régulière de l'intervalle [a,b] en n sous-intervalles [xi,xi+1] avec i variant de o à n : xo = a < x1< x2 < ... < xn = b, on a xi+1 - xi = (b - a)/n. La somme des aires colorées en jaune pointé représente une approximation J de l'intégrale I. Chaque aire est celle d'un trapèze de hauteur xi+1 - xi, de bases respectives f(xi) et f(xi+1).
+
+
 >
