@@ -43,18 +43,23 @@ L'erreur est: ![image](https://user-images.githubusercontent.com/91917391/145694
 * **Méthode de Simpson:**
 Soit N un entier non nul pair. On considére ici la subdivision xk = a + kh avec h =b−a/N (le pas de la subdivision) et k = 0, · · · , N. Donc xk+1 − xk = h. On a x0 = a 
 et xN = b. En appliquant de meme ici la relation de Chasles, la formule composite de Simpson est donnée comme suit :<br>
-![image](https://user-images.githubusercontent.com/91917391/145695401-4946f59c-b23b-4eca-91f9-2de8f5866228.png)
-L'erreur est:![image](https://user-images.githubusercontent.com/91917391/145695419-7c201a85-1e77-4c65-98e9-7ec61e30170f.png)<br>
+![image](https://user-images.githubusercontent.com/91917391/145695401-4946f59c-b23b-4eca-91f9-2de8f5866228.png)<br>
+L'erreur est: <br>![image](https://user-images.githubusercontent.com/91917391/145695419-7c201a85-1e77-4c65-98e9-7ec61e30170f.png)<br>
 ![image](https://user-images.githubusercontent.com/91917391/145695515-2f9e2f80-fa23-4eba-9e6f-ae4f28b4a504.png)<br>
 
  <b>=>Plus le nombre de points est grand, plus la méthode est précise. La méthode de Simpson est une méthode d’ordre 4.</b>
  
  * **Méthode du Point Milieu:**
- 
- Soit h le pas de temps. Notons Yn l'approximation obtenue à l'instant tn. Il s'agit d'obtenir Yn+1, l'approximation à l'instant tn+1=tn+h. La méthode d'Euler consiste à évaluer la dérivée à l'instant tn (c.a.d. f(Yn,tn)) puis à assimiler la courbe entre les instants tn et tn+1 à un segment de droite dont la pente est donnée par cette dérivée :
-Yn+1=Yn+hf(Yn,tn)
+Cette méthode utilise Ègalement le polynÙme constant pour approximer la fonction f. Cependant, elle exploite mieux les symètries du problème en choisissant la valeur milieu:<br>
+![image](https://user-images.githubusercontent.com/91917391/145696963-0b3e4c34-1e73-480a-b5c1-feca92d4b541.png)<br>
+L'erreur:il peut etre estimée en utilisant les développements en sÈrie de Taylor, ou le thèorème des accroissements finis. On trouve alors pour <b>h = b-a</b><br>
+
+![image](https://user-images.githubusercontent.com/91917391/145697188-8ca26bc7-d8fa-43ee-be2a-6d31d48c50da.png)
 
 
+<b>=>Du fait , cette mèthode d'intègration est exacte pour les fonctions f constante, mais aussi pour les fonctions affines .Dans le cas plus gènèral, cette mèthode est d'autant 
+plus précise que les variations de f sont faibles .</b><br>
+<b>=>Plus le domaine [a;b] est petit, plus l'erreur est faible. Cette mèthode du point milieu est toujours plus prècise que la mèthode rectangle.</b>
 
 
 
@@ -70,7 +75,52 @@ Yn+1=Yn+hf(Yn,tn)
 | Milieu    | 0.014220456986109    | -0.0009462064503925373 |
 
 
+* On prend l'intervalle **[-3.32,3.06]**, le nombre de subdivision **n égale à 10** et notre fonction est **f(x)=sin(x)**
+
+|  Méthodes |      L'intégrale     |        L'erreur        |
+|:---------:|:--------------------:|:----------------------:|
+| Rectangle | 0.04444204786309393  | -0.031167797327377466  |
+| Trapèze   | 0.012820442399333715 | 0.0004538081363827471  |
+| Simpson   | 0.013287113928258716 | -1.286339254225402e-05 |
+| Milieu    | 0.01350231645617229  | -0.0002280659204558274 |
+
+* On prend l'intervalle **[-3.32,3.06]**, le nombre de subdivision **n égale à 50** et notre fonction est **f(x)=sin(x)**
+
+|  Méthodes |      L'intégrale     |        L'erreur        |
+|:---------:|:--------------------:|:----------------------:|
+| Rectangle | 0.019580538034059364 | -0.006306287498342902  |
+| Trapèze   | 0.01325621694130733  | 1.8033594409131923e-05 |
+| Simpson   | 0.013274270162622252 | -1.962690578984072e-08 |
+| Milieu    | 0.013283269170265379 | -9.01863454891641e-06  |
+
+* On prend l'intervalle **[-3.32,3.06]**, le nombre de subdivision **n égale à 10** et notre fonction est <b>f(x)=x**2+x-1</b>
+
+|  Méthodes |     L'intégrale    |        L'erreur        |
+|:---------:|:------------------:|:----------------------:|
+| Rectangle | 12.827161955206417 | 1.5605038578138721     |
+| Trapèze   | 14.801082835424289 | -0.41341702240399947   |
+| Simpson   | 14.387665813020293 | -3.552713678800501e-15 |
+| Milieu    | 14.180957301818294 | 0.2067085112019953     |
+
+* On prend l'intervalle **[-3.32,3.06]**, le nombre de subdivision **n égale à 25** et notre fonction est <b>f(x)=x**2+x-1</b>
+
+|  Méthodes |     L'intégrale    |       L'erreur       |
+|:---------:|:------------------:|:--------------------:|
+| Rectangle | 13.66424418451778  | 0.7234216285025088   |
+| Trapèze   | 14.453812536604932 | -0.06614672358464269 |
+| Simpson   | 11.593653905746976 | 2.7940119072733136   |
+| Milieu    | 14.354592451227973 | 0.0330733617923169   |
+
+<b>=> Plus le nombre de subdivisions augmente , plus l'erreur et l'intégrale diminuent.
+Plus le nombre de points est grand, plus la méthode est précise.Plus le domaine [a;b] est petit, plus l'erreur est faible. La mèthode du point milieu est toujours plus prècise que la mèthode rectangle.
+La méthode de Simpson esr plus précise que celle du trapèze car elle donne une valeur approchée plus proche de la valeur exacte.</b>
 
 
 
->
+<h3>Conclusion Générale:</h3>
+En conclusion, l'intègraltion numèrique est une mèthode pour calculer une valeur approximative d'une fonction qui est compliqueè d'une autre cotè, l'intègration numèrique permet d'estimer l'intègrale de cette fonction par la mèthode d'interpolation avec certain erreur.
+
+
+
+
+
