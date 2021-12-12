@@ -18,13 +18,14 @@
 * [ANACONDA For Linux][ANACONDA]
 * [Octave][oct]
 * [Jupyter][Jup]
-* [Googlecollabs][clb]
+* [Python][PYTHON]
 
 ## Getting started 
-> Dans une première séance (session en ligne) nous allons faire une mise à niveau sur la programmation Python et Matlab/Octave 
-> + On va installer Anaconda et Octave en local
-> + On  va aussi ajouter le kernel d'octave/Matlab à jupyter notebook
-> + On va apprendre à utiliser google colab et octave-online 
+> Dans une première séance nous avons fait une mise à niveau sur la programmation Python et Matlab/Octave .
+> + On a installé Anaconda en local
+> + On a aussi ajouté le kernel de Python à jupyter notebook
+> + On a appris à utiliser Python
+> + On a fait 3TP ,dans le premier TP, on a etudié les trois méthodes de la fonction linéaire , le seuxième TP de l'interpolation polynomiale et le dernier sur les methodes d'intégration numérique.
 
 [ANACONDA]: https://www.anaconda.com/products/individual
 [Jup]: https://jupyter.org/
